@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #FF6B6B; /* Soft Red */
+  --secondary-color: #4ECDC4; /* Teal */
+  --accent-color: #FFE66D; /* Yellow */
+  --background-color: #F7FFF7; /* Off-white */
+  --text-color: #2C3E50;
+  --card-bg: #FFFFFF;
+  --font-main: 'Jua', 'Gamja Flower', sans-serif; /* Korean friendly fonts if available, fallback to sans */
+  --shadow: 0 4px 15px rgba(0,0,0,0.1);
+  --radius: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&display=swap');
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Utilities */
+.container {
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 0px var(--accent-color);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 20px 0;
+}
