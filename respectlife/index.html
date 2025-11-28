@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>생명 존중 실천 사례</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="icon-wrapper">
+                <span class="heart-icon">❤️</span>
+            </div>
+            <h1>생명 존중 실천 사례</h1>
+            <p class="subtitle">우리 주변의 생명 사랑 영웅들을 만나봐요!</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="category-section" style="--section-color: #FF6B6B">
+            <h2 class="section-title"><span class="title-deco">✨</span> 생명을 지키는 사람들</h2>
+            <div class="card-grid" id="people-grid"></div>
+        </section>
+
+        <section class="category-section" style="--section-color: #4ECDC4">
+            <h2 class="section-title"><span class="title-deco">✨</span> 생명을 존중하는 단체들</h2>
+            <div class="card-grid" id="organizations-grid"></div>
+        </section>
+
+        <section class="category-section" style="--section-color: #FFE66D">
+            <h2 class="section-title"><span class="title-deco">✨</span> 생명을 보호하는 시설들</h2>
+            <div class="card-grid" id="facilities-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 생명 존중 실천 사례</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="detail-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-header">
+                <div class="modal-image"></div>
+                <h2 class="modal-title"></h2>
+            </div>
+            <div class="modal-body">
+                <p class="modal-description"></p>
+                <hr>
+                <div class="modal-detail-text"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

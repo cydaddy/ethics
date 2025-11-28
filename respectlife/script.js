@@ -1,0 +1,165 @@
+const content = {
+    people: [
+        {
+            title: '119 구급대원',
+            description: '위험에 처한 사람들을 가장 먼저 달려가 구해주는 멋진 영웅들이에요. 아픈 사람을 병원으로 이송하고, 화재 현장에서 생명을 구합니다.',
+            image: 'assets/paramedic_real.png',
+            tags: ['용기', '희생', '안전'],
+            detailText: `119 구급대원 아저씨, 아주머니들은 우리가 아프거나 다쳤을 때 가장 먼저 달려와 주시는 분들이에요. 삐뽀삐뽀 구급차를 타고 꽉 막힌 도로를 뚫고 와서, 응급 처치를 해주고 병원까지 안전하게 데려다주신답니다.\n\n때로는 불이 난 곳이나 위험한 사고 현장에도 직접 들어가서 사람들을 구해내기도 해요. 자신의 몸이 다칠 수도 있지만, 다른 사람의 생명을 구하는 것이 더 중요하다고 생각하시기 때문이죠.\n\n우리가 길에서 구급차를 보면 어떻게 해야 할까요? 맞아요! 구급차가 빨리 지나갈 수 있도록 길을 비켜주는 것이 생명을 살리는 작은 실천이랍니다.`
+        },
+        {
+            title: '의사 선생님',
+            description: '아픈 사람들의 병을 치료하고 건강을 되찾아주는 고마운 분들이에요. 생명을 살리기 위해 밤낮으로 노력합니다.',
+            image: 'assets/doctor.png',
+            tags: ['치료', '건강', '돌봄'],
+            detailText: `의사 선생님은 우리 몸이 어디가 아픈지 꼼꼼하게 살펴보고, 병을 낫게 해주는 분들이에요. 감기에 걸렸을 때 약을 지어주기도 하고, 크게 다쳤을 때는 수술을 해서 생명을 구해주기도 하죠.\n\n특히 응급실이나 중환자실에 계신 의사 선생님들은 밤에도 잠을 자지 않고 아픈 환자들 곁을 지키신답니다. 환자가 건강해져서 웃으며 퇴원할 때 가장 큰 보람을 느끼신대요.\n\n의사 선생님 덕분에 우리는 아픈 곳을 치료하고 튼튼하게 자랄 수 있어요. 우리도 건강을 잘 지키는 것이 의사 선생님께 감사하는 방법이겠죠?`
+        },
+        {
+            title: '소방관',
+            description: '뜨거운 불길 속에서도 용감하게 뛰어들어 사람들을 구해요. 우리의 안전을 위해 항상 준비하고 계십니다.',
+            image: 'assets/firefighter_real.png',
+            tags: ['화재진압', '구조', '용감함'],
+            detailText: `소방관 아저씨들은 무거운 장비를 메고 뜨거운 불 속으로 뛰어들어요. "사람이 안에 있어요!"라는 소리를 들으면 무서움도 잊고 용감하게 불길을 헤치고 나아가죠.\n\n불을 끄는 일뿐만 아니라, 홍수가 나거나 건물이 무너지는 등 위험한 일이 생기면 언제든지 나타나 우리를 도와주신답니다.\n\n소방관님들의 땀방울 덕분에 우리는 매일 밤 편안하게 잠들 수 있어요. 우리를 지켜주는 소방관님들께 항상 감사하는 마음을 가져요!`
+        }
+    ],
+    organizations: [
+        {
+            title: '한국생명존중희망재단',
+            description: '자살을 예방하고 생명의 소중함을 알리는 일을 해요. 힘든 사람들에게 희망을 전해줍니다.',
+            image: 'assets/foundation_real.png',
+            tags: ['자살예방', '희망', '상담'],
+            detailText: `한국생명존중희망재단은 마음이 너무 힘들어서 지친 사람들에게 "당신은 소중한 사람이에요"라고 말해주는 곳이에요. 혼자라고 느끼는 사람들에게 따뜻한 손길을 내밀어 다시 일어설 수 있는 힘을 주죠.\n\n이곳에서는 '109'라는 상담 전화를 운영해서 누구나 힘들 때 도움을 요청할 수 있게 해요. 또, 우리 모두가 생명을 지키는 '생명지킴이'가 될 수 있도록 교육도 해준답니다.\n\n생명은 세상 그 무엇보다 소중해요. 우리 주변에 힘들어하는 친구가 있다면 "괜찮니?"라고 물어봐 주는 것도 생명 존중을 실천하는 멋진 방법이에요.`
+        },
+        {
+            title: '생명의전화',
+            description: '마음이 힘든 사람들의 이야기를 들어주는 곳이에요. 24시간 언제나 전화로 도움을 요청할 수 있어요.',
+            image: 'assets/lifeline_real.png',
+            tags: ['경청', '위로', '24시간'],
+            detailText: `밤늦은 시간, 아무에게도 말 못 할 고민이 생기면 어디에 이야기해야 할까요? 생명의전화는 1년 365일, 하루 24시간 언제나 열려 있어요.\n\n전화기 너머의 상담 선생님들은 우리의 이야기를 귀 기울여 들어주시고, 따뜻한 위로를 건네주세요. "많이 힘들었겠구나", "네 잘못이 아니야"라는 말 한마디가 큰 힘이 되기도 하죠.\n\n한강 다리 위에 있는 'SOS 생명의전화'도 바로 이곳에서 운영하는 거예요. 힘든 순간, 누군가 내 이야기를 들어준다는 것만으로도 우리는 다시 살아갈 용기를 얻을 수 있답니다.`
+        },
+        {
+            title: '인도주의실천의사협의회',
+            description: '가난하고 소외된 사람들을 위해 무료로 진료하고, 모두가 건강할 권리를 위해 활동하는 의사 선생님들의 모임이에요.',
+            image: 'assets/physicians_real.png',
+            tags: ['봉사', '인권', '나눔'],
+            detailText: `병원비가 없어서 아파도 병원에 못 가는 사람들이 있다면 얼마나 슬플까요? 인도주의실천의사협의회 선생님들은 돈이 없거나 차별받는 사람들을 찾아가 무료로 진료를 해주세요.\n\n노숙인, 외국인 노동자, 그리고 전쟁으로 고통받는 나라의 아이들까지... 선생님들은 "모든 사람은 건강할 권리가 있다"고 믿으며 사랑을 실천하고 계시죠.\n\n의술을 통해 세상의 아픔을 치료하고, 더 평화롭고 정의로운 세상을 만들기 위해 노력하는 멋진 의사 선생님들이랍니다.`
+        }
+    ],
+    facilities: [
+        {
+            title: '국립생태원',
+            description: '다양한 동식물들이 살아가는 환경을 연구하고 보호하는 곳이에요. 멸종 위기 동물들을 돌보고 자연의 소중함을 알려줍니다.',
+            image: 'assets/ecology_real.png',
+            tags: ['자연보호', '생태계', '동물사랑'],
+            detailText: `국립생태원은 우리나라뿐만 아니라 전 세계의 다양한 동물과 식물들이 모여 사는 작은 지구예요. 이곳에서는 사라져가는 멸종 위기 동물들을 정성껏 돌보고, 다시 자연으로 돌아갈 수 있도록 도와줘요.\n\n우리는 이곳에서 펭귄, 수달, 사막여우 같은 친구들을 만나며 생명의 신비로움을 배울 수 있어요. 그리고 자연을 함부로 대하면 동물 친구들이 살 곳을 잃게 된다는 것도 깨닫게 되죠.\n\n국립생태원은 우리에게 "자연과 사람은 함께 살아가야 하는 친구"라는 소중한 교훈을 알려주는 학교랍니다.`
+        },
+        {
+            title: '유기동물 보호소',
+            description: '길을 잃거나 버려진 동물들을 안전하게 보호하고 새로운 가족을 찾아주는 따뜻한 곳이에요.',
+            image: 'assets/shelter_real.png',
+            tags: ['입양', '보호', '책임감'],
+            detailText: `강아지나 고양이가 길을 잃거나 주인에게 버림받으면 어떻게 될까요? 유기동물 보호소는 갈 곳 없는 동물 친구들을 안전하게 보호해 주는 곳이에요.\n\n이곳에서는 아픈 동물들을 치료해주고, 밥도 주고, 따뜻한 잠자리도 제공해요. 그리고 동물 친구들을 진심으로 사랑해 줄 새로운 가족을 찾아주기도 한답니다.\n\n동물을 키우는 것은 아주 큰 책임감이 필요한 일이에요. "사지 말고 입양하세요"라는 말처럼, 보호소의 친구들에게 새로운 가족이 되어주는 건 어떨까요?`
+        },
+        {
+            title: '응급실',
+            description: '갑자기 아프거나 다친 사람들이 24시간 언제든지 치료받을 수 있는 병원의 중요한 공간이에요.',
+            image: 'assets/er_real.png',
+            tags: ['응급처치', '생명', '신속함'],
+            detailText: `한밤중에 갑자기 배가 너무 아프거나 다쳤을 때, 우리는 응급실로 달려가요. 응급실은 24시간 불이 꺼지지 않는 병원의 심장 같은 곳이에요.\n\n이곳에는 의사 선생님, 간호사 선생님들이 항상 대기하고 있어서 위급한 환자가 오면 바로 치료를 시작할 수 있어요. 1분 1초가 급한 환자들의 생명을 살리기 위해 모두가 바쁘게 움직이죠.\n\n응급실은 생명을 지키기 위한 가장 치열하고도 소중한 공간이에요. 우리도 응급 상황이 생기면 당황하지 말고 119에 신고하거나 응급실을 찾아야 한다는 것, 잊지 마세요!`
+        }
+    ]
+};
+
+// Function to create a card element
+function createCard(item) {
+    const card = document.createElement('div');
+    card.className = 'example-card';
+    card.onclick = () => openModal(item);
+
+    const image = document.createElement('div');
+    image.className = 'card-image';
+    image.style.backgroundImage = `url(${item.image})`;
+
+    const content = document.createElement('div');
+    content.className = 'card-content';
+
+    const title = document.createElement('h3');
+    title.textContent = item.title;
+
+    const description = document.createElement('p');
+    description.textContent = item.description;
+
+    const tags = document.createElement('div');
+    tags.className = 'tags';
+    item.tags.forEach(tag => {
+        const span = document.createElement('span');
+        span.className = 'tag';
+        span.textContent = `#${tag}`;
+        tags.appendChild(span);
+    });
+
+    content.appendChild(title);
+    content.appendChild(description);
+    content.appendChild(tags);
+
+    card.appendChild(image);
+    card.appendChild(content);
+
+    return card;
+}
+
+// Render cards
+function renderCards() {
+    const peopleGrid = document.getElementById('people-grid');
+    const organizationsGrid = document.getElementById('organizations-grid');
+    const facilitiesGrid = document.getElementById('facilities-grid');
+
+    content.people.forEach(item => peopleGrid.appendChild(createCard(item)));
+    content.organizations.forEach(item => organizationsGrid.appendChild(createCard(item)));
+    content.facilities.forEach(item => facilitiesGrid.appendChild(createCard(item)));
+}
+
+// Modal Logic
+const modal = document.getElementById('detail-modal');
+const modalClose = document.querySelector('.modal-close');
+const modalOverlay = document.querySelector('.modal-overlay');
+
+function openModal(item) {
+    const modalImage = document.querySelector('.modal-image');
+    const modalTitle = document.querySelector('.modal-title');
+    const modalDescription = document.querySelector('.modal-description');
+    const modalDetailText = document.querySelector('.modal-detail-text');
+
+    modalImage.style.backgroundImage = `url(${item.image})`;
+    modalTitle.textContent = item.title;
+    modalDescription.textContent = item.description;
+
+    // Handle newlines in detail text
+    modalDetailText.innerHTML = '';
+    item.detailText.split('\n').forEach(paragraph => {
+        if (paragraph.trim()) {
+            const p = document.createElement('p');
+            p.textContent = paragraph;
+            p.style.marginBottom = '15px';
+            modalDetailText.appendChild(p);
+        }
+    });
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+    modal.classList.remove('active');
+    document.body.style.overflow = 'unset';
+}
+
+modalClose.addEventListener('click', closeModal);
+modalOverlay.addEventListener('click', (e) => {
+    if (e.target === modalOverlay) {
+        closeModal();
+    }
+});
+
+// Initialize
+document.addEventListener('DOMContentLoaded', renderCards);
